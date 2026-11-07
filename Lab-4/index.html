@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <h1>Моя перша HTML-форма</h1>
+    <form action="https://httpbin.org/post" method="post">
+      <label for="fname">Ім'я:</label>
+      <input type="text" id="fname" name="Ім'я"><br><br>
+      <label for="date">Дата народження:</label>
+      <input type="date" id="date" name="Дата народження"><br><br>
+      <label for="email">Імейл:</label>
+      <input type="text" id="email" name="Електронна пошта"><br><br>
+      <label for="message">Повідомлення:</label>
+      <textarea name="Повідомлення" id="message"></textarea><br><br>
+      <input type="submit"> 
+      <input type="reset" value="Очистити"><br><br>
+      <span style="color:blue;">Ваші улюблені напої?</span>
+      <span style="float:right;color:yellow;">Моя національність</span><br>
+      <input type="checkbox" id="drink1" name="juice">
+      <label for="drink1">Сік</label>
+      <input type="radio" id="nati1" name="uk" style="float:right;">
+      <label for="nati1" style="float:right;">Англієць</label><br>
+      <input type="checkbox" id="drink2" name="soda">
+      <label for="drink2">Газировка</label>
+      <input type="radio" id="nati2" name="ua" style="float:right;">
+      <label for="nati2" style="float:right;">Українець</label><br>
+      <input type="checkbox" id="drink3" name="water">
+      <label for="drink3">Вода</label>
+      <input type="radio" id="nati3" name="ch" style="float:right;">
+      <label for="nati3" style="float:right;">Китаєць</label>
+      
+      
+    </form>
+    
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
